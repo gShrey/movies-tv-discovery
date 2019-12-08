@@ -1,0 +1,55 @@
+.filterSection {
+    box-shadow: -2px 0px 10px 5px rgba(0,0,0,0.49);
+    background-color: #0e1821;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    padding-top: 2em;
+}
+
+.heading {
+    color: #8798a8;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+
+.sperator {
+    width: 10px;
+    margin: 1px 5px;
+    height: 1px;
+    background: #8798a8;
+    transform: translateY(10px);
+}
+
+.form {
+    margin-top: 2em;
+}
+
+.form .input {
+    margin-top: 1.5em;
+}
+
+.input label{
+    font-size: 1em;
+    display: block;
+    margin-bottom: 0.5em;
+    color: #8798a8;
+}
+
+.yearSelectorInput {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5em;
+    align-items: center;
+}
+
+.yearSelectorInput .input {
+    margin: 0 0.5em;
+    margin-top:0;
+}
+.yearSelectorInput .input:first-child {
+    margin-left: 0;
+}

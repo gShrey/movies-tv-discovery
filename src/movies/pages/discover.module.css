@@ -1,0 +1,17 @@
+.page {
+
+    height: 100%;
+}
+
+.gridContainer {
+    height: 100%;
+    padding: 2em 2em !important;
+    overflow: scroll;
+}
+
+.gridSection {
+    margin-top: 2em;
+}
+.moveTileCol {
+    margin-bottom: 3em;
+}
